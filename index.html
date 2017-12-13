@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movie Search</title>    
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Movie<span>Finder</span></h1>
+            <form>
+                <input type="text" id="movieName" placeholder="Enter a movie..." autocomplete="off">
+                <input type="submit" placeholder="Search">
+            </form>
+        </header>
+        <section class='categoryMovie'>
+            <button class="topRatedMovies">Top Rated</button>
+            <button class="popularMovies">Popular</button>
+            <button class="upcomingMovies">Upcoming</button>
+            </ul>
+        </section>
+        <ul class="movieSearchResult"></ul>
+        <section class="modal">
+            <div class="closeModal"><i class="fa fa-window-close"></i></div>
+            <figure>
+                <div class="modalImg"></div>
+            </figure>	
+        </section>
+    </div>  <!--end of class wrapper -->
+    <footer>
+        <p>&copy; Gilbert 2017</p>
+    </footer>     
+    
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+    <script src="https://use.fontawesome.com/452826394c.js"></script>
+    <script src="scripts/app.js"></script>
+
+    
+    
+
+
+</body>
+</html>
